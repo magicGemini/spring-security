@@ -80,7 +80,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 
-6. 启动web application，查看效果
+5. 启动web application，查看效果
 
 访问：http://localhost:8080，进入的是home，
 点击here(`<p>Click <a th:href="@{/hello}">here
